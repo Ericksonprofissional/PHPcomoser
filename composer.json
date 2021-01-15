@@ -1,0 +1,25 @@
+{
+    "name": "ericksonprofissional/buscador-cursos",
+    "description": "Projeto que busca os cursos no site",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Erickson Martinez",
+            "email": "ericksonprofissional@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "symfony/dom-crawler":  "^5.2",
+        "symfony/css-selector": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "NovoProjeto\\Buscador\\":"src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "phan/phan": "^4.0"
+    }
+}
